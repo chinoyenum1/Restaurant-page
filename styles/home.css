@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Courgette', cursive;;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 70%;
+    background-color: #e0f2f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, footer{
+    background-color: #004d40;
+    color: #e0f2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: right;
+    align-items: center;
+    padding: 0 2rem; 
+}
+
+header > nav > ul > li{
+    font-size: 2vw;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+header > nav > ul > li:hover{
+    background-color: #b2dfdb;
+    color: #00695c;
+    cursor: pointer;
+}
+
+.banner{
+    background-image: url('../images/fufu.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1{
+    color: #fff;
+    font-size: 7vw;
+    text-shadow: 3px 3px 2px #004d40;
+}
+
+.banner .line{
+    border-top: 5px solid #fff;
+    width: 80%;
+}
+
+.banner p{
+    font-size: 2vw;
+    color: #00796b;
+    text-shadow: 1px 1px 2px #e0f2f1;
+    margin-bottom: 1rem;
+}
+
+.banner button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #b2dfdb;
+    background-color: #004d40;
+    padding: .6rem 1.6vw;
+    margin: 2px;
+    border: none;
+    border-radius: 5%;
+}
+
+.banner button:hover{
+   background-color: #b2dfdb;
+   border: 2px solid #004d40;
+   color: #004d40;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+main .about{
+    width: 70%;
+    background-color: #00695c;
+    color: #e0f2f1;
+    padding: 5vw;
+}
+
+.about .para{
+    font-size: 1.2vw;
+    font-style: italic;
+}
+
+main img{
+    border: 5px solid #00695c;
+    width: 40%;
+    height: auto;
+    z-index: 2;
+}
+
+footer{
+    padding: 10px;
+    font-size: 1vw;
+}

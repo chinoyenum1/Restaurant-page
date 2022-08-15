@@ -1,1 +1,0 @@
-alert('Hello Benaiah Welcome to Webpack')
