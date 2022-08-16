@@ -4,8 +4,12 @@ import { banner } from "./utils/banner";
 import { main_content } from "./utils/main-content";
 import { footer } from "./utils/footer";
 
+export let content;
+
 export const home = () => {
-    const content = document.querySelector('.content')
+    content = document.querySelector('.content')
+  content.textContent = "";
+
    
     return content.append(header(), banner(), main_content(), footer())
 }

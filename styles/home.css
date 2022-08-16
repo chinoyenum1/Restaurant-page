@@ -37,7 +37,7 @@ header > nav > ul > li{
     font-weight: bold;
 }
 
-header > nav > ul > li:hover{
+header > nav > ul > li:hover, header > nav > ul > li:active{
     background-color: #b2dfdb;
     color: #00695c;
     cursor: pointer;
@@ -60,18 +60,21 @@ header > nav > ul > li:hover{
     color: #fff;
     font-size: 7vw;
     text-shadow: 3px 3px 2px #004d40;
+    text-decoration-line: underline;
+    text-decoration-color: tomato;
 }
 
-.banner .line{
+/* .banner .line{
     border-top: 5px solid #fff;
     width: 80%;
-}
+} */
 
 .banner p{
     font-size: 2vw;
-    color: #00796b;
-    text-shadow: 1px 1px 2px #e0f2f1;
+    color: tomato;
+    text-shadow: 1px 1px 2px #004d40;
     margin-bottom: 1rem;
+    margin-top: -10px;
 }
 
 .banner button{
@@ -82,13 +85,12 @@ header > nav > ul > li:hover{
     background-color: #004d40;
     padding: .6rem 1.6vw;
     margin: 2px;
-    border: none;
+    border: 2px solid #004d40;
     border-radius: 5%;
 }
 
 .banner button:hover{
    background-color: #b2dfdb;
-   border: 2px solid #004d40;
    color: #004d40;
 }
 
@@ -104,6 +106,7 @@ main .about{
     background-color: #00695c;
     color: #e0f2f1;
     padding: 5vw;
+
 }
 
 .para{
@@ -116,11 +119,12 @@ main .about{
 }
 
 main img{
-    justify-self: end;
     border: 5px solid #00695c;
+    border-radius: 50%;
     width: 40%;
-    height: auto;
-    z-index: 1;
+    height: 30vw;
+    position: relative;
+    left: -5%;
 }
 
 footer{
