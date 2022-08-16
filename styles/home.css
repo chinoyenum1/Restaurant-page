@@ -106,16 +106,21 @@ main .about{
     padding: 5vw;
 }
 
-.about .para{
+.para{
     font-size: 1.2vw;
     font-style: italic;
 }
 
+.para span{
+    font-size: 1.6vw;
+}
+
 main img{
+    justify-self: end;
     border: 5px solid #00695c;
     width: 40%;
     height: auto;
-    z-index: 2;
+    z-index: 1;
 }
 
 footer{
