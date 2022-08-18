@@ -6,7 +6,9 @@ import { title } from "./utils/title";
 import { menu_list as menuList } from "./utils/menu-list";
 
 export const menu = () => {
-  content.textContent = "";
+  document.body.textContent = ``
+  const content = document.createElement('div');
 
-  return content.append(header(), title(), menuList(), footer());
+  content.append(header(), title(), menuList(), footer());
+  return document.body.append(content);
 };

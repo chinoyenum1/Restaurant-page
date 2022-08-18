@@ -7,7 +7,8 @@ import { form } from "../contactpage/utils/contact-form";
 
 
 export const contact = () => {
-    content.textContent = "";
+    document.body.textContent = ``
+    const content = document.createElement('div');
     const wrapper = document.createElement('div')
     const page_title = document.createElement('h1')
     page_title.textContent = `Contact Us`
@@ -17,6 +18,7 @@ export const contact = () => {
     wrapper.append(page_title, location(), form())
 
 
-  return content.append(header(), wrapper, footer());
+  content.append(header(), wrapper, footer());
+  return document.body.append(content)
 
 }
