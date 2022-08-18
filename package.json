@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/chinoyenum1/Restaurant-page/issues"
   },
-  "homepage": "https://github.com/chinoyenum1/Restaurant-page#readme",
+  "homepage": "https://github.com/chinoyenum1/Restaurant-page",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
