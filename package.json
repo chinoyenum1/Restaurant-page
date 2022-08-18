@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Nigerian traditional cuisines that will wet your palate always",
   "main": "index.js",
-  "private": "true",
+  "private": "false",
   "scripts": {
     "watch": "webpack --watch",
     "start": "webpack serve"
