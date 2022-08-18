@@ -8,6 +8,7 @@ import { menu_list as menuList } from "./utils/menu-list";
 export const menu = () => {
   document.body.textContent = ``
   const content = document.createElement('div');
+  content.classList.add('content');
 
   content.append(header(), title(), menuList(), footer());
   return document.body.append(content);

@@ -9,7 +9,7 @@ import { footer } from "./utils/footer";
 export const home = () => {
   document.body.textContent = ``
   const content = document.createElement('div');
-  // content.textContent = "";
+  content.classList.add('content');
 
   content.append(header(), banner(), main_content(), footer())
   document.body.append(content)

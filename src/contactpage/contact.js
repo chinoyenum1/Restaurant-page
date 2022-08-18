@@ -14,6 +14,8 @@ export const contact = () => {
     page_title.textContent = `Contact Us`
 
     wrapper.classList.add('wrapper')
+    content.classList.add('content');
+
 
     wrapper.append(page_title, location(), form())
 
