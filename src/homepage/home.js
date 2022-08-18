@@ -9,7 +9,7 @@ content.classList.add('content')
 
 export const home = () => {
     // content = document.querySelector('.content')
-  content.textContent = "";
+  // content.textContent = "";
 
   content.append(header(), banner(), main_content(), footer())
   document.body.append(content)
